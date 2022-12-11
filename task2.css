@@ -42,3 +42,19 @@ div a{
     text-decoration: none;
     color:rgb(75, 42, 165)
 }
+
+.flexbox {
+    flex-direction:column;
+    background-color: gold;
+    border: 1px solid green;
+    margin: 20px;
+    padding: 10px;
+    float: right;
+
+}
+.p1 {
+    background-color: antiquewhite;
+}
+.p2 {
+    background-color: lightcoral;
+}
