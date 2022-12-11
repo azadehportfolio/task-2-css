@@ -1,0 +1,44 @@
+ul {
+    background-color: aquamarine;
+    list-style: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    text-align: center;
+    position: sticky;
+    top:0;
+    }
+li {
+    float:left;
+}
+li a{
+    display:block;
+    width:60px;
+    text-decoration: none;
+    padding:20px;
+    font-size:medium;
+    color:rgb(67, 119, 7)
+    }
+li a:hover {
+      background-color: aqua;
+      color:blueviolet;
+}
+:active {
+    background-color: brown;
+    color:antiquewhite
+}
+.first,.second,.third,.fourth {
+    
+    background-color: aquamarine;
+    width: 100px;
+    font-size: medium;
+    height: 50px;
+}
+.first:hover,.second:hover,.third:hover,.fourth:hover {
+      background-color: blueviolet;
+      color:brown
+}
+div a{
+    text-decoration: none;
+    color:rgb(75, 42, 165)
+}
